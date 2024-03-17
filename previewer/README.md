@@ -11,14 +11,14 @@
 масштабирующий/обрезающий их до нужного формата и возвращающий пользователю.
 
 ## Основной обработчик
-http://cut-service.com/fill/300/200/raw.githubusercontent.com/OtusGolang/final_project/master/examples/image-previewer/_gopher_original_1024x504.jpg
+http://cut-service.com/fill/300/200/github.com/dbzyuzin/bit-exam/raw/dev/previewer/examples/_gopher_original_1024x504.jpg
 
 <---- микросервис ----><- размеры превью -><--------- URL исходного изображения --------------------------------->
 
 В URL выше мы видим:
 - http://cut-service.com/fill/300/200/ - endpoint нашего сервиса,
 в котором 300x200 - это размеры финального изображения.
-- https://raw.githubusercontent.com/OtusGolang/final_project/master/examples/image-previewer/_gopher_original_1024x504.jpg - 
+- https://github.com/dbzyuzin/bit-exam/raw/dev/previewer/examples/_gopher_original_1024x504.jpg - 
 адрес исходного изображения; сервис должен скачать его, произвести resize, закэшировать и отдать клиенту.
 
 Сервис должен получить URL исходного изображения, скачать его, изменить до необходимых размеров и вернуть как HTTP-ответ.
